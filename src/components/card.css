@@ -1,0 +1,18 @@
+img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10%;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.text{
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   background: linear-gradient(black,white,grey);
+   height: 800px;
+
+}
